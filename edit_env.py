@@ -1,4 +1,4 @@
-file = open("/etc/environment","r")
+file = open("environment","r")
 content=file.read()
 #print(content)
 file.close()
